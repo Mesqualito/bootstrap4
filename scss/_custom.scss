@@ -2,7 +2,21 @@
 //
 // Copy variables from '_variables.scss' to this file to override default values
 // without modifying source files.
-$body-bg: red;
+$body-bg: #eaeded;
+
+$white: darken($white, 10);
+$white_reversed: #010101;
+
+.btn-success:hover,
+.btn-success.hover {
+  color: $white;
+}
+
+.btn-success:active,
+.btn-success.active {
+  font-size: 90%;
+  color: $white_reversed !important;
+}
 
 $enable-rounded: false;
 $enable-shadows: true;
