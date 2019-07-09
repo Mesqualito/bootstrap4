@@ -21,3 +21,16 @@ $white_reversed: #010101;
 $enable-rounded: false;
 $enable-shadows: true;
 $enable-gradients: true;
+
+$grid-breakpoints: (
+        xs: 0,
+        sm: 600px,
+        md: 768px,
+        lg: 992px,
+        xl: 1200px
+);
+@include media-breakpoint-up(sm) {
+  .some-class {
+    display: block;
+  }
+}
