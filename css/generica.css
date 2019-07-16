@@ -10,6 +10,10 @@
     height: 80px;
 }
 
+.upper_space {
+    padding-top: 5rem;
+}
+
 @media only screen and (max-width: 786px) {
     .display-1 {
         font-size: 2rem;
