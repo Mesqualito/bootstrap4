@@ -2,6 +2,13 @@
     background-color: aqua;
 }
 
+.change_logo {
+    background-image: url(../img/signet.png);
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 98px;
+}
+
 @media only screen and (max-width: 786px) {
     .display-1 {
         font-size: 2rem;
