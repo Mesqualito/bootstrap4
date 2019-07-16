@@ -5,8 +5,9 @@
 .change_logo {
     background-image: url(../img/signet.png);
     background-repeat: no-repeat;
-    width: 100px;
-    height: 98px;
+    background-size:contain;
+    width: 80px;
+    height: 80px;
 }
 
 @media only screen and (max-width: 786px) {
