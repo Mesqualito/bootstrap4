@@ -2,7 +2,8 @@
 //
 // Copy variables from '_variables.scss' to this file to override default values
 // without modifying source files.
-$body-bg: #eaeded;
+
+$enable-responsive-font-sizes: true;
 
 .container {
   max-width: 60em;
