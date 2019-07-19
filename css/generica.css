@@ -1,7 +1,9 @@
+body {
+    position: relative;
+}
 .aqua {
     background-color: aqua;
 }
-
 .change_logo {
     background-image: url(../img/signet.png);
     background-repeat: no-repeat;
@@ -9,21 +11,17 @@
     width: 80px;
     height: 80px;
 }
-
 .upper_space {
     padding-top: 5rem;
 }
-
 .hg-pink {
     background-color: hotpink;
 }
-
 /* Vertikale Navigation */
 .nav_side a { color:#23272b; }
 @media only screen and (max-width: 786px) {
     .nav_side { display: none; }
 }
-
 @media only screen and (max-width: 786px) {
     .display-1 {
         font-size: 2rem;
